@@ -31,7 +31,7 @@ public class QueueExample : MonoBehaviour
         queueDebug.text += "...............\n";
         foreach(var queueitem in queue)
         {
-            queueDebug.text += "{queueitem}\n";
+            queueDebug.text += $"{queueitem}\n";
         }
     }
 }

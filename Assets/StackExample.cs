@@ -42,9 +42,8 @@ public class StackExample : MonoBehaviour
         foreach(var stackitem in stack)
         {
             Debug.Log(stack.Count);
-            stackDebug.text = $"{stackitem}\n";
-            //stackDebug.text = "\n";
-            stackDebug.text = $"{stackitem}\n";
+            stackDebug.text += $"{stackitem}\n";
+            
         }
     }
 }
