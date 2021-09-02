@@ -22,6 +22,9 @@ public class QueueExample : MonoBehaviour
 
         ShowInformationInQueue(queue);
 
+        queue.Dequeue();
+        ShowInformationInQueue(queue);
+
     }
     public void ShowInformationInQueue(Queue queue)
     {
